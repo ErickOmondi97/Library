@@ -25,7 +25,7 @@ function Home() {
           Sample text. Click to select the textbox. Click again or double click <br />
           to start editing the text.
         </p>
-        <button className='btn'><a href="#">LEARN MORE</a></button>
+        <a href="#" className='btn'>LEARN MORE</a>
       </div>
     </div>
   )
