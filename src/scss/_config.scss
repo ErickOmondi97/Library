@@ -1,0 +1,8 @@
+$primaryColor: rgb(31, 155, 107);
+$secondaryColor: rgb(1, 34, 30);
+$tertiaryColor: whitesmoke;
+$tertiaryColor2: wheat;
+
+@mixin transition-ease {
+  transition: all 0.5s ease-in-out ;
+}
