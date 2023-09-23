@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { useState } from 'react'
 import './App.css'
 import Home from './components/Home/Home'
-import Menu from './components/Menu/Menu'
+import Cards from './components/Cards/Cards'
 
 
 class App extends Component {
@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <div>
         <Home />
-        {/* <Menu /> */}
+        <Cards />
       </div>
     )
   }
