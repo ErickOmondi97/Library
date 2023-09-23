@@ -1,7 +1,7 @@
 .home {
   width: 100%;
   height: 100vh;
-  background: wheat;
+  background: linear-gradient(to right, rgba(2, 2, 2, 0.15), rgb(233, 221, 221));
 }
 .home .header {
   display: flex;
@@ -19,17 +19,24 @@
 }
 .home .header .menuList ul li a {
   text-decoration: none;
-  color: rgb(36, 185, 128);
+  color: rgb(31, 155, 107);
 }
 .home .header .menuList ul li a::after {
   content: "";
+  display: block;
+  width: 0%;
+  height: 2px;
+  background: rgb(31, 155, 107);
+  margin: auto;
+  transition: all 0.5s ease-in-out;
 }
 .home .header .menuList ul li a:hover::after {
   width: 100%;
 }
 .home .content .homeTitle {
+  position: relative;
   font-size: 40px;
-  transform: translateY(40vh);
+  transform: translateY(25vh);
   text-align: center;
   font-weight: 100;
 }
@@ -37,27 +44,73 @@
   font-weight: 900;
 }
 .home .content p {
-  font-size: 12px;
-  transform: translateY(40vh);
+  font-size: 15px;
+  transform: translateY(25vh);
   text-align: center;
   font-weight: 100;
 }
 .home .content .btn {
+  position: absolute;
+  text-decoration: none;
   font-size: 12px;
-  background: #fff;
-  color: aqua;
-  transform: translate(45vw, 40vh);
+  transform: translate(45vw, 30vh);
+  background: whitesmoke;
+  color: rgb(36, 185, 128);
   text-align: center;
   border: 1px solid rgb(36, 185, 128);
   padding: 15px 30px;
-  margin-top: 20px;
   border-radius: 25px;
   cursor: pointer;
+  transition: all 0.5s ease-in-out;
 }
-.home .content .btn a {
-  text-decoration: none;
-  color: rgb(36, 185, 128);
-  font-size: 10px;
+.home .content .btn:hover {
+  background: rgb(36, 185, 128);
+  color: whitesmoke;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 75vh;
+  background: linear-gradient(to right, rgba(2, 2, 2, 0.15), rgb(233, 221, 221));
+}
+.cards .card {
+  display: flex;
+  justify-content: space-between;
+  background: rgb(1, 34, 30);
+  color: whitesmoke;
+  border-radius: 10px;
+  padding: 150px 50px;
+  margin-left: 30px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.cards .card:hover {
+  background: rgb(31, 155, 107);
+  color: whitesmoke;
+}
+.cards .card .cardContent {
+  position: relative;
+}
+.cards .card .cardContent .cardIcon {
+  position: absolute;
+  top: -37.5px;
+  right: 100px;
+}
+.cards .card .cardContent .arrowRight {
+  position: absolute;
+  bottom: -37.5px;
+  right: 100px;
+}
+.cards .card .cardContent h2 {
+  padding: 20px 0;
+  font-size: 25px;
+}
+.cards .card .cardContent p {
+  font-size: 12px;
 }
 
 * {
