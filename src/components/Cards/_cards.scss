@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 75vh;
+  height: 50vh;
   background: linear-gradient(to right, rgba(2, 2, 2, 0.15), rgb(233, 221, 221));
 
   .card {
@@ -13,7 +13,7 @@
     background: rgb(1, 34, 30);
     color: whitesmoke;
     border-radius: 10px;
-    padding: 150px 50px;
+    padding: 75px 50px;
     margin-left: 30px;
     text-align: center;
     cursor: pointer;
@@ -30,14 +30,14 @@
 
       .cardIcon {
         position: absolute;
-        top: -37.5px;
-        right: 100px
+        top: -50px;
+        right: 50px
       }
 
       .arrowRight {
         position: absolute;
-        bottom: -37.5px;
-        right: 100px;
+        bottom: -50px;
+        right: 50px;
         
       }
 
