@@ -73,7 +73,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 75vh;
+  height: 50vh;
   background: linear-gradient(to right, rgba(2, 2, 2, 0.15), rgb(233, 221, 221));
 }
 .cards .card {
@@ -82,7 +82,7 @@
   background: rgb(1, 34, 30);
   color: whitesmoke;
   border-radius: 10px;
-  padding: 150px 50px;
+  padding: 75px 50px;
   margin-left: 30px;
   text-align: center;
   cursor: pointer;
@@ -97,13 +97,13 @@
 }
 .cards .card .cardContent .cardIcon {
   position: absolute;
-  top: -37.5px;
-  right: 100px;
+  top: -50px;
+  right: 50px;
 }
 .cards .card .cardContent .arrowRight {
   position: absolute;
-  bottom: -37.5px;
-  right: 100px;
+  bottom: -50px;
+  right: 50px;
 }
 .cards .card .cardContent h2 {
   padding: 20px 0;
@@ -111,6 +111,135 @@
 }
 .cards .card .cardContent p {
   font-size: 12px;
+}
+
+.messageSection {
+  position: relative;
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: rgb(1, 34, 30);
+}
+.messageSection::before {
+  content: "";
+  position: absolute;
+  height: 400px;
+  left: 0px;
+  border: 10px solid rgb(31, 155, 107);
+}
+.messageSection::after {
+  content: "";
+  position: absolute;
+  height: 400px;
+  right: 0px;
+  border: 10px solid rgb(31, 155, 107);
+}
+.messageSection .Message {
+  font-size: 33px;
+  color: whitesmoke;
+}
+.messageSection .MessageParagraph {
+  font-size: 12px;
+  color: whitesmoke;
+  padding: 40px 0;
+  text-align: center;
+  line-height: 2;
+}
+.messageSection .btn {
+  text-decoration: none;
+  font-size: 12px;
+  background: whitesmoke;
+  color: rgb(36, 185, 128);
+  text-align: center;
+  border: 1px solid rgb(36, 185, 128);
+  padding: 15px 40px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.messageSection .btn:hover {
+  background: rgb(36, 185, 128);
+  color: whitesmoke;
+}
+
+.btn {
+  text-decoration: none;
+  font-size: 12px;
+  background: whitesmoke;
+  color: rgb(36, 185, 128);
+  text-align: center;
+  border: 1px solid rgb(36, 185, 128);
+  padding: 15px 40px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.btn:hover {
+  background: rgb(36, 185, 128);
+  color: whitesmoke;
+}
+
+.benefitsSection {
+  height: 100vh;
+}
+.benefitsSection .benefitsTitle {
+  font-size: 40px;
+  text-align: center;
+  color: rgb(31, 155, 107);
+  margin: 20px 0;
+}
+.benefitsSection .benefitsCards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.benefitsSection .benefitsCards .benefitscard {
+  background: whitesmoke;
+  border-radius: 10px;
+  padding: 30px 30px;
+}
+.benefitsSection .benefitsCards .benefitscard h2 {
+  text-align: center;
+  color: #000;
+  padding: 10px 0;
+}
+.benefitsSection .benefitsCards .benefitscard h3 {
+  font-size: 17px;
+  text-align: center;
+  color: #000;
+}
+.benefitsSection .benefitsCards .benefitscard p {
+  font-size: 12px;
+  margin: 10px 0;
+  line-height: 2;
+  text-align: center;
+  padding: 0px 40px;
+  color: #000;
+}
+.benefitsSection .benefitsCards .benefitscard1 {
+  background: rgb(1, 34, 30);
+  border-radius: 10px;
+  padding: 30px 30px;
+}
+.benefitsSection .benefitsCards .benefitscard1 h2 {
+  text-align: center;
+  color: whitesmoke;
+  padding: 10px 0;
+}
+.benefitsSection .benefitsCards .benefitscard1 h3 {
+  font-size: 17px;
+  text-align: center;
+  color: whitesmoke;
+}
+.benefitsSection .benefitsCards .benefitscard1 p {
+  font-size: 12px;
+  margin: 10px 0;
+  line-height: 2;
+  text-align: center;
+  padding: 0px 40px;
+  color: whitesmoke;
 }
 
 * {
