@@ -1,5 +1,8 @@
 import React from 'react'
 
+//Imported Icons
+import { AiOutlineArrowRight } from 'react-icons/ai'
+
 function Cards() {
   return (
     <div>
@@ -12,7 +15,7 @@ function Cards() {
             Sample text. Click to select the text <br /> box. Click again or double click 
             to <br /> start editing the text.
             </p>
-            <img src="" alt="arrowRight" className="arrowRight"/>
+            <AiOutlineArrowRight className="arrowRight" />
           </div>
         </div>
         <div className="card">
@@ -23,7 +26,7 @@ function Cards() {
             Sample text. Click to select the text <br /> box. Click again or double click 
             to <br /> start editing the text.
             </p>
-            <img src="" alt="arrowRight" className="arrowRight"/>
+            <AiOutlineArrowRight className="arrowRight" />
           </div>
         </div>
         <div className="card">
@@ -34,7 +37,7 @@ function Cards() {
             Sample text. Click to select the text <br /> box. Click again or double click 
             to <br /> start editing the text.
             </p>
-            <img src="" alt="arrowRight" className="arrowRight"/>
+            <AiOutlineArrowRight className="arrowRight" />
           </div>
         </div>
       </div>
