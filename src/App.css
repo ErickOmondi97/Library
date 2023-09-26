@@ -91,6 +91,7 @@
 .cards .card:hover {
   background: rgb(31, 155, 107);
   color: whitesmoke;
+  transform: scale(1.05);
 }
 .cards .card .cardContent {
   position: relative;
@@ -103,7 +104,8 @@
 .cards .card .cardContent .arrowRight {
   position: absolute;
   bottom: -50px;
-  right: 50px;
+  right: 45%;
+  font-size: 20px;
 }
 .cards .card .cardContent h2 {
   padding: 20px 0;
@@ -184,12 +186,13 @@
 
 .benefitsSection {
   height: 100vh;
+  background: whitesmoke;
 }
 .benefitsSection .benefitsTitle {
   font-size: 40px;
   text-align: center;
   color: rgb(31, 155, 107);
-  margin: 20px 0;
+  padding: 30px 0;
 }
 .benefitsSection .benefitsCards {
   display: grid;
@@ -240,6 +243,78 @@
   text-align: center;
   padding: 0px 40px;
   color: whitesmoke;
+}
+
+.coachingSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+.coachingSection .coachingTitle {
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 200px;
+}
+.coachingSection p {
+  font-size: 15px;
+  text-align: center;
+  font-weight: 100;
+  line-height: 2;
+}
+.coachingSection .buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+.coachingSection .buttons .btn {
+  text-decoration: none;
+  font-size: 12px;
+  background: whitesmoke;
+  color: rgb(36, 185, 128);
+  text-align: center;
+  border: 1px solid rgb(36, 185, 128);
+  padding: 15px 30px;
+  margin-left: 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.coachingSection .buttons .btn:hover {
+  background: rgb(36, 185, 128);
+  color: whitesmoke;
+}
+
+.coursesSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.coursesSection .leftSide {
+  flex-basis: 33.33%;
+  text-align: left;
+  padding: 0px 50px;
+}
+.coursesSection .leftSide h3 {
+  font-size: 22.5px;
+  font-weight: bold;
+  color: rgb(31, 155, 107);
+  padding: 10px 0;
+}
+.coursesSection .leftSide h4 {
+  font-weight: normal;
+  padding: 15px 0;
+}
+.coursesSection .middleSide {
+  flex-basis: 33.33%;
+}
+.coursesSection .rightSide {
+  flex-basis: 33.33%;
 }
 
 * {
