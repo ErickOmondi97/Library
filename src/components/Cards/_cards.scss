@@ -22,6 +22,7 @@
     &:hover {
       background: $primaryColor;
       color: whitesmoke;
+      transform: scale(1.05);
     }
 
     .cardContent {
@@ -37,7 +38,8 @@
       .arrowRight {
         position: absolute;
         bottom: -50px;
-        right: 50px;
+        right: 45%;
+        font-size: 20px;
         
       }
 
