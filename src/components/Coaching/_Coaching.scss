@@ -1,0 +1,48 @@
+.coachingSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+
+  .coachingTitle {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 200px;
+  }
+
+  p {
+    font-size: 15px;
+    text-align: center;
+    font-weight: 100;
+    line-height: 2;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+
+    .btn {
+      text-decoration: none;
+      font-size: 12px;
+      background: whitesmoke;
+      color: rgb(36, 185, 128);
+      text-align: center;
+      border: 1px solid rgb(36, 185, 128);
+      padding: 15px 30px;
+      margin-left: 20px;
+      border-radius: 25px;
+      cursor: pointer;
+      @include transition-ease;
+        
+      &:hover {
+        background: rgb(36, 185, 128);
+        color: whitesmoke;
+      }
+    }
+  }
+}
