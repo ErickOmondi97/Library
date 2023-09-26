@@ -1,0 +1,33 @@
+.coursesSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+
+    .leftSide {
+      flex-basis: 33.33%;
+      text-align: left;
+      padding: 0px 50px;
+
+      h3 {
+        font-size: 22.5px;
+        font-weight: bold;
+        color: $primaryColor;
+        padding: 10px 0;
+      }
+
+      h4 {
+        font-weight: normal;
+        padding: 15px 0;
+      }
+
+    }
+    
+    .middleSide {
+      flex-basis: 33.33%;
+    }
+    
+    .rightSide {
+      flex-basis: 33.33%;
+    }
+}
