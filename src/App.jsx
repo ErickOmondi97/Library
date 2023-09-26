@@ -1,10 +1,14 @@
 import React, { Component } from 'react'
 import { useState } from 'react'
 import './App.css'
+
+/* COMPONENTS */
 import Home from './components/Home/Home'
 import Cards from './components/Cards/Cards'
 import Message from './components/Message/Message'
 import Benefits from './components/Benefits/Benefits'
+import Coaching from './components/Coaching/Coaching'
+import Courses from './components/Courses/Courses'
 
 
 class App extends Component {
@@ -15,6 +19,8 @@ class App extends Component {
         <Cards />
         <Message />
         <Benefits />
+        <Coaching />
+        <Courses />
       </div>
     )
   }
