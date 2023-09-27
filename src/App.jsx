@@ -9,6 +9,7 @@ import Message from './components/Message/Message'
 import Benefits from './components/Benefits/Benefits'
 import Coaching from './components/Coaching/Coaching'
 import Courses from './components/Courses/Courses'
+import Where from './components/Where/Where'
 
 
 class App extends Component {
@@ -21,6 +22,7 @@ class App extends Component {
         <Benefits />
         <Coaching />
         <Courses />
+        <Where />
       </div>
     )
   }
