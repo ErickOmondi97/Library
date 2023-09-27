@@ -294,6 +294,7 @@
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
+  height: 75vh;
 }
 .coursesSection .leftSide {
   flex-basis: 33.33%;
@@ -308,13 +309,54 @@
 }
 .coursesSection .leftSide h4 {
   font-weight: normal;
+  font-size: 15pt;
   padding: 15px 0;
 }
+.coursesSection .leftSide p {
+  padding: 30px 0 30px 0;
+  font-size: 12pt;
+}
+.coursesSection .leftSide a {
+  margin-left: 12.5%;
+}
 .coursesSection .middleSide {
+  display: flex;
   flex-basis: 33.33%;
+}
+.coursesSection .middleSide img {
+  display: flex;
+  justify-content: center;
 }
 .coursesSection .rightSide {
   flex-basis: 33.33%;
+}
+.coursesSection .rightSide .rightTop {
+  text-align: center;
+}
+.coursesSection .rightSide .rightTop h1 {
+  color: rgb(31, 155, 107);
+  padding-top: 10px;
+}
+.coursesSection .rightSide .rightTop h3 {
+  padding-top: 10px;
+}
+.coursesSection .rightSide .rightTop p {
+  padding: 20px 0px;
+  line-height: 1.5;
+}
+.coursesSection .rightSide .rightBottom {
+  text-align: center;
+}
+.coursesSection .rightSide .rightBottom h1 {
+  color: rgb(31, 155, 107);
+  padding-top: 10px;
+}
+.coursesSection .rightSide .rightBottom h3 {
+  padding-top: 10px;
+}
+.coursesSection .rightSide .rightBottom p {
+  padding: 20px 0px;
+  line-height: 1.5;
 }
 
 * {
