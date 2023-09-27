@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
+  height: 75vh;
 
     .leftSide {
       flex-basis: 33.33%;
@@ -18,16 +19,68 @@
 
       h4 {
         font-weight: normal;
+        font-size: 15pt;
         padding: 15px 0;
+      }
+
+      p {
+        padding: 30px 0 30px 0;
+        font-size: 12pt;
+      }
+
+      a {
+        margin-left: 12.5%;
       }
 
     }
     
     .middleSide {
+      display: flex;
       flex-basis: 33.33%;
+
+      img {
+        display: flex;
+        justify-content: center;
+      }
     }
     
     .rightSide {
       flex-basis: 33.33%;
+
+      .rightTop {
+        text-align: center;        
+
+        h1 {
+          color: $primaryColor;
+          padding-top: 10px;
+        }
+
+        h3 {
+          padding-top: 10px;
+        }
+        
+        p {
+          padding: 20px 0px;
+          line-height: 1.5;
+        }
+      }
+      
+      .rightBottom {
+        text-align: center;
+
+        h1 {
+          color: $primaryColor;
+          padding-top: 10px;
+        }
+
+        h3 {
+          padding-top: 10px;
+        }
+        
+        p {
+          padding: 20px 0px;
+          line-height: 1.5;
+        }
+      }
     }
 }
