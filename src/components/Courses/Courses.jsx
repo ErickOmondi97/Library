@@ -26,13 +26,13 @@ export default class Courses extends Component {
             <div className="rightTop">
               <h1>65%</h1>
               <h3>Sample Headline</h3>
-              <p>Sample Text. Click to Select Text Element</p>
+              <p>Sample Text. Click to Select Text <br /> Element</p>
             </div>
             
             <div className="rightBottom">
               <h1>20%</h1>
               <h3>Sample Headline</h3>
-              <p>Sample Text. Click to Select Text Element</p>
+              <p>Sample Text. Click to Select Text <br /> Element</p>
             </div>
           </div>
         </div>
