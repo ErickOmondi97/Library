@@ -1,0 +1,43 @@
+.meetSection {
+  margin-bottom: 20pt;
+  
+  .title {
+    font-size: 11pt;
+    text-align: center;
+
+    span {
+      color: $primaryColor;
+    }
+  }
+
+  .professionals {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40pt;
+    padding: 20pt 50pt;
+
+    .professional {
+      text-align: center;
+
+      h4 {
+        padding-top: 10pt;
+      }
+
+      h5 {
+        padding: 10pt 0 20pt 0;
+      }
+
+      p {
+        line-height: 1.5;
+      }
+    }
+
+    .socials {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10pt 0;
+    }
+  }
+}
