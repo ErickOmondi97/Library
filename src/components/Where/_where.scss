@@ -1,0 +1,51 @@
+.whereSection {
+
+  .whereHeading {
+    .whereTitle {
+      font-size: 30pt;
+      color: $primaryColor;
+      padding: 50px 0 0 30px;
+    }
+    
+    p {
+      color: #000;
+      font-size: 10pt;
+      padding-left: 30px;
+      line-height: 1.5;
+    }
+  }
+
+  .whereBottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    .exp {
+      padding-left: 30px;
+
+      h3 {
+        font-weight: lighter;
+        font-size: 20pt;
+      }
+
+      p {
+        color: #000;
+        font-size: 10pt;
+        padding-top: 20px;
+      }
+    }
+
+    .figures {
+      display: grid;
+      grid-template-columns: repeat(2, 2fr);
+      gap: 50pt;
+      padding: 0 20% 40pt 0;
+
+      h1 {
+        font-size: 30pt;
+        color: $primaryColor;
+        padding-left: 30px;
+      }
+    }
+  }
+}
