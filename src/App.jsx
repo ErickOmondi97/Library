@@ -10,6 +10,8 @@ import Benefits from './components/Benefits/Benefits'
 import Coaching from './components/Coaching/Coaching'
 import Courses from './components/Courses/Courses'
 import Where from './components/Where/Where'
+import Meet from './components/Meet/Meet'
+import Footer from './components/Footer/Footer'
 
 
 class App extends Component {
@@ -23,6 +25,8 @@ class App extends Component {
         <Coaching />
         <Courses />
         <Where />
+        <Meet />
+        <Footer />
       </div>
     )
   }
