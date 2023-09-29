@@ -10,6 +10,7 @@
 @import '../components/Courses/Courses';
 @import '../components/Where/where';
 @import '../components/Meet/meet';
+@import '../components/Footer/footer';
 
 * {
   margin: 0;
@@ -19,13 +20,27 @@
 
 html {
   scroll-behavior: smooth;
+  
 }
 
 body {
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   animation-name: myanimation;
   animation-fill-mode: both;
-  animation-duration: 0.5s;
-  
+  animation-duration: 0.5s;  
+}
+
+::-webkit-scrollbar {
+  background: #fff;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $primaryColor;
+  border-radius: 10px;
+
+  &:active {
+    background: $secondaryColor;
+  }
 }
 
