@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div>
+    <div className='footer'>
       <div className="left">
         <h2>Start using our App for free</h2>
         <p>Simple Text. Lorem agdgd agdgeehh age ahhahha ehhhe ahhe ahhhhhe hahhefbbd ahdgdggve avdgdgve avggvd <br />
